@@ -8,7 +8,7 @@ public class CustomInspectorTutorial : MonoBehaviour
     public float ExampleVarFloat;
     public void ExampleFunctionToRun()
     {
-         Debug.Log("Custom Inspector button pressed")
+         Debug.Log("Custom Inspector button pressed. This is the editable float value:" +  ExampleVarFloat)
     }
 }
 //below is the class that will handle the custom inspector.
